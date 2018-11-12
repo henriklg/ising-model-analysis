@@ -10,9 +10,9 @@ class Layer():
         self.n_neurons = n_neurons
         self.n_input = n_input
 
-        self.weights = np.ones(shape = [self.n_input, self.n_neurons])
-        #self.weights = np.random.randn(self.n_neurons, self.n_input)
-        self.biases = np.zeros(shape=[1, self.n_neurons]) + 0.01
+        #self.weights = np.ones(shape = [self.n_input, self.n_neurons])
+        self.weights = np.random.randn(self.n_neurons, self.n_input)
+        #self.biases = np.zeros(shape=[1, self.n_neurons]) + 0.01
         self.eta = eta
         self.error = None
 
@@ -62,4 +62,4 @@ class Layer():
     def backwards_propagation(self):
         # Update weights and bias
         self.weights -= self.eta*np.matmul(self.a_in.T, self.error)
-        self.biases -= self.eta*np.sum(self.error, axis=0).reshape(1, self.n_neurons)
+        #self.biases -= self.eta*np.sum(self.error, axis=0).reshape(1, self.n_neurons)

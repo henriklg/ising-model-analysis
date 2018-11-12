@@ -135,10 +135,10 @@ if __name__ == '__main__':
 
     # Split into test data and train data, initialize network
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y_binary, train_size=0.8)
-    MLN = MultilayerNeuralNetwork(X_train, Y_train, n_neurons=1600, n_hidden_layers=1, eta=1e-5)
+    MLN = MultilayerNeuralNetwork(X_train, Y_train, n_neurons=1600, n_hidden_layers=1, eta=1e-7)
 
     # Define number of epochs and batch size
-    epochs = 5
+    epochs = 20
     batch_size = 1000
     iterations = int(np.shape(X)[0]/batch_size)
     indices = np.arange(0, np.shape(X)[0])
