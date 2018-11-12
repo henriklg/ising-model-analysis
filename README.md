@@ -1,1 +1,5 @@
-# Project2_FYS-STK
+# Project2 in FYS-STK4155
+Members:
+ -betinahw
+ -monahe
+ -henriklg
