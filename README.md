@@ -1,6 +1,6 @@
-# FYS-STK4155 Project 2
+# Ising Model Analysis
 
-Project 2 in FYS-STK4155 by Betina Høyer Wester, Mona Heggen and Henrik Gjestang. 
+Project 2 in FYS-STK4155 by Betina Høyer Wester, Mona Heggen and Henrik Gjestang. Course taken fall of 2018.
 
 In this project, we studied 1D and 2D Ising model data with different machine learning techniques.
 More details may be found in the [project report](https://github.com/henriklg/Project2_FYS-STK4155/blob/master/FYS_STK4155_project2.pdf).
